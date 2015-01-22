@@ -15,6 +15,9 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	When changes are made to TRY a new feature or something else, but a program
+	still needs to be functional while experimenting, we can use branches:
+	one for stable version, another for tryouts.
 
 How do the diagrams help you visualize the branch structure?
 
