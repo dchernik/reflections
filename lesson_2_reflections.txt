@@ -20,9 +20,16 @@ organized? How would branches help?
 	one for stable version, another for tryouts.
 
 How do the diagrams help you visualize the branch structure?
+	A picture is worth a thousand words.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The result is adding changes from coins branch to master branch.
+	To show that coins branch added into master one.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	In simple cases where git "knows" exactly which changes to keep and which
+	to discard, the auto mode is very convenient. The downside maybe that it can
+	not know for sure everytime, but then it asks user, so now there should be no
+	surprises.
